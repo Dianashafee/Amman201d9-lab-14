@@ -1,1 +1,101 @@
 /* TODO: Make it awesome */
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    color: black;
+    font-style: italic;
+    letter-spacing: 6px;
+    
+}
+
+h1:hover{
+    transform: translateX(4px);
+    text-shadow: 0 0 10px rgb(255, 245, 245),
+                  0 0 80px #28a8a8,
+                  0 0 80px #28a8a8
+}
+
+body{
+    background: url(https://i.pinimg.com/originals/b0/a6/5e/b0a65e5fc1ccc22aabf5c04e5d268008.jpg);
+    background-repeat: no-repeat;
+    background-size: 1600px 1000px;
+    width: 100%;
+background-attachment: fixed;
+
+}
+
+
+
+ol{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 72px;
+    font-style: inherit;
+   word-spacing: 8px;
+   background-color: rgba(134, 128, 121, 0.15);
+}
+
+#catalog{
+    text-align: center;
+    padding-top: 70px;
+    font-size: 50px;
+}
+
+
+/* li{
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+    display: inline;
+} */
+
+
+header nav{
+    text-align: center;
+    padding-top: 20px; 
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-size: larger;
+    background-color: rgba(214, 115, 16, 0.15);
+}
+
+header nav ul li{
+    text-align: center;
+    display: inline-block;
+    padding: 10px;
+    font-style: italic;
+    font-weight: lighter;
+    word-spacing: 5px;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+
+footer{
+    margin-top: 100px;
+    background-color: rgba(0, 0, 0, 0.40);
+    text-align: center;
+    font-size: 25px;
+}
+
+form legend{
+    background-color: rgba(214, 115, 16, 0.15);
+    float: left;
+    letter-spacing: 6px;
+
+    break-after: left;
+}
+
+form label span {
+    background-color:rgba(214, 115, 16, 0.15); ;
+    font-size: 25px;
+    
+}
+
+*{
+    padding-left: 100px;
+    padding-right: 100px;
+}
